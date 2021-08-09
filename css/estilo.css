@@ -58,6 +58,7 @@
   width: 40vw;
   font-family: 'Open Sans', sans-serif;
   padding: 10px;
+
 }
 
 .artigo {
@@ -131,35 +132,42 @@
 
 #img01 {
   position: relative;
-  
+background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("../imagens/TheNovelsExtra.jpg");
+background-position: center;
 }
-#img01::before {
+/* #img01::before {
   content: "";
-  background-image: url("../imagens/TheNovelsExtra.jpg");
-  position: absolute;
+   background-image: url("../imagens/TheNovelsExtra.jpg");
+   position: absolute;
   top: 0px;
   bottom: 0px;
   right: 0px;
   left: 0px;
-  opacity: 0.5;
-  background-position: center;
-}
+   opacity: 0.2;
+   background-position: center;
+
+
+ } */
 
 #img02{
   position: relative;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("../imagens/TheLegendaryMechanic.jpg");
+  background-position: top;
 }
 
-#img02::before{
+/* #img02::before{
   content: "";
-  background-image: url("../imagens/TheLegendaryMechanic.jpg");
+   background-image: url("../imagens/TheLegendaryMechanic.jpg");
   position: absolute;
   top: 0px;
   bottom: 0px;
   right: 0px;
   left: 0px;
-  opacity: 0.5;
+   opacity: 0.2;
   background-position:top;
-}
+
+
+} */
 
 
 .menu-rodape {
@@ -172,6 +180,8 @@
   font-family: 'Amatic SC', cursive;
   font-size: 50px;
 }
-.titulo-novel{
-  opacity: 1.0;
+
+ .titulo-novel{
+  margin-top: 200px;
+
 }
