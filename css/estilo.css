@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Open+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+.fundo {
+    background-color: white;
+}
+
+/* Toda a área do cabeçário */
+#topo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-bottom: 1px solid black; */
+  height: 15vh;
+  background-color: #57837B;
+
+
+}
+/* O que está escrito no título da página */
+#titulo {
+  /* Colocar cor no titulo da página */
+  /* font-family: 'Caveat', cursive; */
+  font-family: 'Amatic SC', cursive;
+  font-size: 80px;
+}
+
+.menu {
+  text-align: center;
+  border-bottom: 1px solid black;
+  background-color: #57837B;
+}
+
+.itens-menu {
+  text-decoration: none;
+  margin: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #C9D8B6;
+}
+
+.itens-menu:hover {
+  border-bottom: 3px solid #57837B;
+}
+
+.titulo-destaque {
+  /* Colocar uma cor mais escura do que o artigo. */
+
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+/* Serve para padronizar toda  área dos artigos */
+.secao {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40vw;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px;
+}
+
+.artigo {
+    /* O artigo terá cor */
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    }
+
+.artigo:hover {
+  opacity: 0.8;
+}
+
+#base {
+  display: flex;
+  justify-content: center;
+
+  background-color: #57837B;
+  height: 20vh;
+  /*
+
+
+    margin-top: 50px;
+    padding-top: 30px; */
+}
+
+.recomendacoes {
+  text-decoration: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: black;
+}
+
+.capas {
+  width: 400px;
+}
+
+.informacoes-novel {
+  width: 100%;
+
+  padding-right: 30px;
+}
+
+.artigo-novel{
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid black;
+
+}
+
+.rodape{
+  text-decoration: none;
+  margin: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #C9D8B6;
+}
+
+.rodape:hover {
+  border-top: 3px solid #57837B;
+  text-decoration: none;
+  margin: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+
+}
+
+.img-capas {
+  width: 200px;
+}
+
+#img01 {
+  position: relative;
+  
+}
+#img01::before {
+  content: "";
+  background-image: url("../imagens/TheNovelsExtra.jpg");
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  opacity: 0.5;
+  background-position: center;
+}
+
+#img02{
+  position: relative;
+}
+
+#img02::before{
+  content: "";
+  background-image: url("../imagens/TheLegendaryMechanic.jpg");
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  opacity: 0.5;
+  background-position:top;
+}
+
+
+.menu-rodape {
+  text-align: center;
+
+  border-top: 1px solid black;
+  background-color: #57837B;
+}
+.autor{
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+}
+.titulo-novel{
+  opacity: 1.0;
+}
